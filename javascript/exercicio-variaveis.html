@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Interno</title>
+
+    <style>
+
+        body {
+            background-color: rgb(87, 87, 190);
+            color: white;
+            font-weight: 400
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, sequi doloremque! Voluptate eaque molestias
+        dignissimos, modi error nemo. Ipsa cum enim iure minima pariatur rem voluptates exercitationem nesciunt,
+        veritatis velit.</h1>
+
+    <script>
+       let n1 = parseInt(prompt('Digite um número: ')) //parseFloat para números reais
+       let n2 = parseFloat(prompt('Digite outro número: ')) //parseInt para números inteiros
+       let soma = n1 + n2  // Number atualmente pode tratar de números int e reais
+       alert ('A soma dos valores é: ' + String(soma)) // o comando de string não é obrigatório apenas se necessário
+       alert (`A soma dos valores é: ${soma}`) // forma mais atualizada usando tamplate string
+    </script>
+
+</body>
+
+</html>
